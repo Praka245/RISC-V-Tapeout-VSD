@@ -79,8 +79,7 @@ $ sudo apt install gtkwave
 ```
 ---
 
-"file:///home/praka/Pictures/Screenshots/Screenshot%20from%202025-09-19%2021-33-59.png" ![Yosys Installed](images/setup.png)
-
+<img width="1920" height="272" alt="Screenshot from 2025-09-19 21-33-59" src="https://github.com/user-attachments/assets/ff65c4a3-b23a-4bf8-ac2d-717b7eab91f8" />
 
 ---
 
