@@ -34,13 +34,18 @@
 ## Iverilog-Based Simulation Flow 🔄
 
 1. Write RTL design and corresponding testbench.
+
 2. Compile both using `iverilog` to generate a simulation executable.
+
 3. Run the executable to generate a **Value Change Dump (VCD)** file.
+
 4. Open the VCD file in **gtkwave** to analyze waveforms.
 
 ![IVERILOG FLOW](https://github.com/user-attachments/assets/d9fecdc4-0ecb-4e52-b8d6-1ed7e353e80e)
 
-### Step-by-Step Process 📝
+---
+
+## Step-by-Step Process 📝
 **1. Pass RTL design and testbench to Iverilog simulator**  
    <img width="1907" height="667" alt="image" src="https://github.com/user-attachments/assets/a14cd87e-51fe-40c9-906f-47bf73f6faee" />
   
@@ -63,7 +68,8 @@
 - Inputs: `i0`, `i1`, `sel`; Output: `y`.
 - Uses `always @(*)` block and `if-else` to select input.
 
-![MUX Design](Images/good_mux.png)
+<img width="1920" height="997" alt="image" src="https://github.com/user-attachments/assets/2e9d0b9d-5dd3-49a6-896b-ad91edbd91bc" />
+
 
 ### Testbench (`tb_good_mux.v`) 🧩
 - Instantiates `good_mux`.
