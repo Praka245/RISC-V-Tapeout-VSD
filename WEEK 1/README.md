@@ -64,8 +64,11 @@
 ## MUX 2:1 Design and Testbench 🛠️
 
 ### Design (`good_mux.v`) 💡
+
 - Implements a 2:1 multiplexer using behavioral Verilog.
+  
 - Inputs: `i0`, `i1`, `sel`; Output: `y`.
+  
 - Uses `always @(*)` block and `if-else` to select input.
 
 <img width="1920" height="997" alt="image" src="https://github.com/user-attachments/assets/2e9d0b9d-5dd3-49a6-896b-ad91edbd91bc" />
@@ -73,7 +76,9 @@
 
 ### Testbench (`tb_good_mux.v`) 🧩
 - Instantiates `good_mux`.
+  
 - Applies stimulus through internal registers `i0`, `i1`, `sel`.
+  
 - Generates VCD waveform using `$dumpfile` and `$dumpvars`.
 
 <img width="1920" height="997" alt="image" src="https://github.com/user-attachments/assets/221796dc-d55e-41b4-a189-6ff1b19ae546" />
@@ -90,64 +95,73 @@
 ```bash
 yosys
 ```
-![Uploading 5.png…]()
+<img width="1907" height="742" alt="5" src="https://github.com/user-attachments/assets/0b1419eb-f784-476c-b6eb-c9379e2bd46d" />
 
+---
 
 **Step 1:** Read Liberty File (for technology mapping) 📚
 
 ```bash
 read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 ```
-
+---
 
 **Step 2:** Read RTL Verilog ✏️
 
 ```bash
 read_verilog good_mux.v
 ```
+<img width="1920" height="997" alt="6" src="https://github.com/user-attachments/assets/86add2e9-a2ec-4eed-a895-ec3de9a79d6a" />
+
+---
 
 **Step 3:** Synthesize top-level module 🏗️
 
 ```bash
 synth -top good_mux
 ```
+<img width="1920" height="997" alt="7" src="https://github.com/user-attachments/assets/28f4b3e2-e9da-48e7-bb7d-d90113112a76" />
+<img width="1920" height="997" alt="8" src="https://github.com/user-attachments/assets/11dba931-b7a5-410e-8201-949938a16d7c" />
+
+---
 
 **Step 4:** Map RTL to standard cells 🧩
 
 ```bash
 abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 ```
+<img width="1920" height="997" alt="9" src="https://github.com/user-attachments/assets/f3ec1d64-b451-4613-8df7-57fab00c3da8" />
+
+<img width="1920" height="997" alt="10" src="https://github.com/user-attachments/assets/6ad6bb2c-d7c6-4d76-8de7-f456d1f14444" />
+
+---
 
 **Step 5:** View synthesized netlist as schematic 🔌
 
 ```bash
 show
 ```
+<img width="1920" height="997" alt="11" src="https://github.com/user-attachments/assets/a1386708-0b48-4cf2-9a8d-8a434455b06d" />
+
+---
 
 **Step 6:** Write synthesized gate-level netlist 💾
 
 ```bash
 write_verilog -noattr good_mux_netlist.v
 ```
+<img width="1920" height="997" alt="14" src="https://github.com/user-attachments/assets/c8a4fb26-6cc1-4e56-a2b6-018a74a6fcac" />
 
-
-
-**Step 7:** Terminal Command
-
-```bash
-gedit good_mux_netlist.v
-```
 ---
 
-## Synthesized Netlist Images 🔌
+**Step 7:** Shell Command to view the Netlist file 
 
+```bash
+!gedit good_mux_netlist.v
+```
+## Synthesized Netlist
 
-This version now has: 
+<img width="1920" height="997" alt="15" src="https://github.com/user-attachments/assets/6ec16e50-a508-469c-9c16-91e29628f555" />
 
-- Emojis next to **subtitles** for visual clarity.  
-- Clean, GitHub-friendly Markdown structure.  
-- Step-by-step highlights for simulation and synthesis.  
+---
 
-If you want, I can **also add a “Quick Notes & Tips 💡” section at the end** for extra clarity, which makes it perfect for a GitHub repo README style.  
-
-Do you want me to add that?
