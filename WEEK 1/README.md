@@ -41,17 +41,18 @@
 ![IVERILOG FLOW](https://github.com/user-attachments/assets/d9fecdc4-0ecb-4e52-b8d6-1ed7e353e80e)
 
 ### Step-by-Step Process 📝
-1. Pass RTL design and testbench to Iverilog simulator  
+**1. Pass RTL design and testbench to Iverilog simulator**  
    <img width="1907" height="667" alt="image" src="https://github.com/user-attachments/assets/a14cd87e-51fe-40c9-906f-47bf73f6faee" />
   
-2. Generate VCD (Value Change Dump) file  
+**2. Generate VCD (Value Change Dump) file** 
    <img width="1907" height="667" alt="image" src="https://github.com/user-attachments/assets/eed1de67-266f-4c3b-b612-21925f4f5061" />
   
-3. Visualize variables using gtkwave  
+**3. Visualize variables using gtkwave**  
    <img width="1907" height="386" alt="image" src="https://github.com/user-attachments/assets/02bf9129-2804-4baf-bb6d-f60e5e0ab568" />
   
-4. View simulation waveform  
-   ![Step 4](Images/Step4.png)  
+**4. View simulation waveform** 
+   <img width="1920" height="997" alt="image" src="https://github.com/user-attachments/assets/90bd2368-4b4e-43e0-948c-19ddb05805c1" />
+
 
 ---
 
