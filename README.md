@@ -5,3 +5,4 @@
 | Task   | Description                              | Status  |
 |--------|------------------------------------------|---------|
 | Day 0 | 🔨 Installed Yosys, Iverilog and GTKWave | Done ✅ |
+| Day 1 | 🔨 Introduction to Verilog, Simulation, Synthesis, Netlist | Done ✅ |
