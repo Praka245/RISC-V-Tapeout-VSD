@@ -45,7 +45,8 @@
    <img width="1907" height="667" alt="image" src="https://github.com/user-attachments/assets/a14cd87e-51fe-40c9-906f-47bf73f6faee" />
   
 2. Generate VCD (Value Change Dump) file  
-   ![Step 2](Images/Step2.png)  
+   <img width="1907" height="667" alt="image" src="https://github.com/user-attachments/assets/eed1de67-266f-4c3b-b612-21925f4f5061" />
+  
 3. Visualize variables using gtkwave  
    ![Step 3](Images/Step3.png)  
 4. View simulation waveform  
