@@ -90,12 +90,15 @@
 ```bash
 yosys
 ```
+![Uploading 5.png…]()
+
 
 **Step 1:** Read Liberty File (for technology mapping) 📚
 
 ```bash
 read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 ```
+
 
 **Step 2:** Read RTL Verilog ✏️
 
@@ -127,10 +130,12 @@ show
 write_verilog -noattr good_mux_netlist.v
 ```
 
+
+
 **Step 7:** Terminal Command
 
 ```bash
-
+gedit good_mux_netlist.v
 ```
 ---
 
