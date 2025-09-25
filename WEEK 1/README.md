@@ -48,7 +48,8 @@
    <img width="1907" height="667" alt="image" src="https://github.com/user-attachments/assets/eed1de67-266f-4c3b-b612-21925f4f5061" />
   
 3. Visualize variables using gtkwave  
-   ![Step 3](Images/Step3.png)  
+   <img width="1907" height="386" alt="image" src="https://github.com/user-attachments/assets/02bf9129-2804-4baf-bb6d-f60e5e0ab568" />
+  
 4. View simulation waveform  
    ![Step 4](Images/Step4.png)  
 
