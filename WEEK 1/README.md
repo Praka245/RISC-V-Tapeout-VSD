@@ -76,7 +76,7 @@
 - Applies stimulus through internal registers `i0`, `i1`, `sel`.
 - Generates VCD waveform using `$dumpfile` and `$dumpvars`.
 
-![Testbench](Images/tb_good_mux.png)
+<img width="1920" height="997" alt="image" src="https://github.com/user-attachments/assets/221796dc-d55e-41b4-a189-6ff1b19ae546" />
 
 ---
 
@@ -89,7 +89,6 @@
 **Step 0:** Start Yosys  
 ```bash
 yosys
-
 ```
 
 **Step 1:** Read Liberty File (for technology mapping) 📚
@@ -98,7 +97,7 @@ yosys
 read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 ```
 
-Step 2: Read RTL Verilog ✏️
+**Step 2:** Read RTL Verilog ✏️
 
 ```bash
 read_verilog good_mux.v
@@ -116,7 +115,7 @@ synth -top good_mux
 abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 ```
 
-**Step 5:**View synthesized netlist as schematic 🖼️
+**Step 5:** View synthesized netlist as schematic 🔌
 
 ```bash
 show
@@ -125,15 +124,20 @@ show
 **Step 6:** Write synthesized gate-level netlist 💾
 
 ```bash
-
 write_verilog -noattr good_mux_netlist.v
 ```
-Synthesized Netlist Images 🖼️
 
+**Step 7:** Terminal Command
 
+```bash
+
+```
 ---
 
-This version now has:  
+## Synthesized Netlist Images 🔌
+
+
+This version now has: 
 
 - Emojis next to **subtitles** for visual clarity.  
 - Clean, GitHub-friendly Markdown structure.  
