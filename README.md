@@ -4,4 +4,4 @@
 
 | Task   | Description                              | Status  |
 |--------|------------------------------------------|---------|
-| Task 0 | 🔨 Installed Yosys, Iverilog and GTKWave | Done ✅ |
+| Day 0 | 🔨 Installed Yosys, Iverilog and GTKWave | Done ✅ |
