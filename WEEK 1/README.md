@@ -42,7 +42,8 @@
 
 ### Step-by-Step Process 📝
 1. Pass RTL design and testbench to Iverilog simulator  
-   ![Step 1](Images/Step1.png)  
+   <img width="1907" height="667" alt="image" src="https://github.com/user-attachments/assets/a14cd87e-51fe-40c9-906f-47bf73f6faee" />
+  
 2. Generate VCD (Value Change Dump) file  
    ![Step 2](Images/Step2.png)  
 3. Visualize variables using gtkwave  
