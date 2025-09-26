@@ -1,4 +1,4 @@
-# WEEK1 📘
+# DAY1 📘
 
 ## Introduction to Verilog RTL Design and Synthesis ⚡
 
