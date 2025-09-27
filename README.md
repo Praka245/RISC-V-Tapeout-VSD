@@ -42,7 +42,16 @@
 - Observed **timing delays** in post-synthesis simulation.  
 - Compared **blocking vs non-blocking assignments**.  
 - Understood **synthesis vs simulation mismatches**.  
-- Verified correctness of design using **GLS waveforms**.  
+- Verified correctness of design using **GLS waveforms**.
+
+## Day 5 – Procedural & Conditional Statements in Verilog & Latch Inference
+
+- Implemented combinational logic using **if-else statements**.  
+- Used **case statements** for structured decision-making and avoiding latches.  
+- Applied **for loops** for repetitive logic in RTL and testbenches.  
+- Leveraged **generate blocks** for parameterized hardware structures.  
+- Learned **latch inference** and techniques to prevent unintended latches.
+ 
 
 <br>
 
@@ -53,3 +62,4 @@
 | Day 2  | 🕒 Timing libraries, Hierarchical vs Flat synthesis, Efficient flop coding styles | Done ✅ |
 | Day 3  | ✨ Optimization in combinational and sequential circuits | Done ✅ |
 | Day 4  |  🪛 GLS, Blocking vs Non-Blocking & Synthesis-Simulation Mismatch | Done ✅ |
+| Day 5  | 🧣 Procedural & Conditional Statements in Verilog (for, if-else, case, generate) & Latch Inference | Done ✅ |
