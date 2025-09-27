@@ -113,3 +113,6 @@ gtkwave tb_bad_mux.vcd
 <br>
   <b>GLS Simulation </b>
 </p>
+<br>
+
+ - ### Ternary Operator mux is in the IMAGES Folder
