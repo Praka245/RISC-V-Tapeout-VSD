@@ -8,4 +8,4 @@
 | Day 1  | 🔨 Introduction to Verilog, Simulation, Synthesis, Netlist | Done ✅ |
 | Day 2  | 🕒 Timing libraries, Hierarchical vs Flat synthesis, Efficient flop coding styles | Done ✅ |
 | Day 3  | ✨ Optimization in combinational and sequential circuits | Done ✅ |
-
+| Day 4  |  | Done ✅ |
