@@ -1,16 +1,16 @@
-# 🚀 Day 4
+# 🚀 Day 4  
 ## GLS, Blocking vs Non-Blocking & Synthesis-Simulation Mismatch  
 
 ## 📚 Contents  
 
-- [Overview](#overview)  
-- [Gate Level Simulation (GLS)](#gate-level-simulation-gls)    
-- [Synthesis of Bad MUX design](#synthesis-of-bad-mux-design)  
-- [GLS of Bad MUX design](#gls-of-bad-mux-design)  
-- [Synthesis-Simulation Mismatch of Bad MUX design](#synthesis-simulation-mismatch-of-bad-mux-design)  
-
+- [📌 Overview](#-overview)  
+- [🏗️ Gate Level Simulation (GLS)](#️-gate-level-simulation-gls)  
+- [🔀 Synthesis of Bad MUX design](#-synthesis-of-bad-mux-design)  
+- [⚡ GLS of Bad MUX design](#-gls-of-bad-mux-design)  
+- [❗ Synthesis-Simulation Mismatch of Bad MUX design](#-synthesis-simulation-mismatch-of-bad-mux-design)  
 
 ---
+
 
 ## 📌 Overview  
 <br>
