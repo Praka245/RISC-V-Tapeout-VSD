@@ -4,15 +4,11 @@
 ## 📚 Contents  
 
 - [Overview](#overview)  
-- [Gate Level Simulation (GLS)](#gate-level-simulation-gls)  
-- [Synthesis of Ternary Operator MUX](#synthesis-of-ternary-operator-mux)  
-- [GLS of Ternary Operator MUX](#gls-of-ternary-operator-mux)  
+- [Gate Level Simulation (GLS)](#gate-level-simulation-gls)    
 - [Synthesis of Bad MUX design](#synthesis-of-bad-mux-design)  
 - [GLS of Bad MUX design](#gls-of-bad-mux-design)  
 - [Synthesis-Simulation Mismatch of Bad MUX design](#synthesis-simulation-mismatch-of-bad-mux-design)  
-- [Synthesis of blocking_caveat design](#synthesis-of-blocking_caveat-design)  
-- [GLS of blocking_caveat design](#gls-of-blocking_caveat-design)  
-- [Synthesis-Simulation Mismatch of blocking_caveat design](#synthesis-simulation-mismatch-of-blocking_caveat-design)  
+
 
 ---
 
