@@ -115,4 +115,4 @@ gtkwave tb_bad_mux.vcd
 </p>
 <br>
 
- - ### Ternary Operator mux is in the IMAGES Folder
+  ### NOTE : Ternary Operator mux is in the IMAGES Folder
