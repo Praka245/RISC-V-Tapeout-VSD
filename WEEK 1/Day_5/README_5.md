@@ -92,6 +92,8 @@ end
 
 🔹 **Rule of thumb**: *Always assign output signals in every branch of `if-else` and `case` for combinational logic.*  
 
+---
+
 ### 🎛 Incomplete Case Statements  
 
 🔹 An incomplete `case` statement occurs when **not all possible input combinations are handled**.  
@@ -107,6 +109,8 @@ end
  <br>
 <img width="1920" height="997" alt="5" src="https://github.com/user-attachments/assets/bfc1bf77-440d-4814-bfb5-697b6d0a18b0" />
 <br>
+
+---
 
 ### ✅ Complete Case Statements  
 
@@ -125,6 +129,9 @@ end
 <br>
 <img width="1920" height="997" alt="7" src="https://github.com/user-attachments/assets/49f66c4d-ba71-45ce-980e-f2c3149729ed" />
 <br>
+
+
+---
 
 ### ⚠️ Partial Case Statements  
 
@@ -165,6 +172,9 @@ always @(*) begin
         c[i] = a[i] | b[i];
 end
 ```
+
+---
+
 ### ⚙️ Generate Blocks
 
 - Creates multiple instances of modules or logic.
@@ -188,6 +198,8 @@ generate
     end
 endgenerate
 ```
+
+---
 
 ## 📝 Summary :  
 
