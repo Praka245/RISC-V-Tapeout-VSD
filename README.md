@@ -1,4 +1,4 @@
-### WEEK 1 TASKS ✅
+### DAILY TASKS ✅
 
 <br> 
 
