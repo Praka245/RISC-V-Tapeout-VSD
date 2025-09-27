@@ -2,6 +2,50 @@
 
 <br> 
 
+# Daily Tasks – Detailed Notes 📘  
+
+## Day 0 – Setup Tools  
+
+- Installed **Yosys** for synthesis.  
+- Installed **Icarus Verilog** for simulation.  
+- Installed **GTKWave** for waveform viewing.  
+- Verified installation and tool versions.  
+- Set up environment for smooth RTL design flow.  
+
+## Day 1 – Verilog Basics  
+
+- Introduction to **Verilog coding style**.  
+- Performed **RTL simulation** using testbenches.  
+- Understood the **synthesis process** in Yosys.  
+- Generated and studied the **netlist**.  
+- Differentiated between **simulation and synthesis outputs**.  
+
+## Day 2 – Timing & Coding Styles 
+
+- Learned about **timing libraries (.lib files)**.  
+- Compared **hierarchical vs flat synthesis** methods.  
+- Understood **trade-offs** in design modularity.  
+- Studied **efficient flip-flop coding** for synthesis-friendly RTL.  
+- Explored **timing impacts** on design quality.  
+
+## Day 3 – Optimizations in Circuits  
+
+- Introduced **combinational optimizations** (logic simplification).  
+- Covered **sequential optimizations** (better FF usage).  
+- Studied **retiming** for balancing critical paths.  
+- Learned about **cloning** to reduce fanout delay.  
+- Applied **state reduction** in FSMs for efficient designs.  
+
+## Day 4 – GLS & Mismatches 
+
+- Performed **Gate-Level Simulation (GLS)** with netlist.  
+- Observed **timing delays** in post-synthesis simulation.  
+- Compared **blocking vs non-blocking assignments**.  
+- Understood **synthesis vs simulation mismatches**.  
+- Verified correctness of design using **GLS waveforms**.  
+
+<br>
+
 | Task   | Description                                              | Status  |
 |--------|----------------------------------------------------------|---------|
 | Day 0  | 🔨 Installed Yosys, Iverilog and GTKWave               | Done ✅ |
