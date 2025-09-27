@@ -1,4 +1,4 @@
-### WEEK 0 TASK COMPLETED ✅
+### WEEK 1 TASKS ✅
 
 <br> 
 
