@@ -15,48 +15,61 @@
 ## 📌 Overview  
 
 🔹 Verilog provides control-flow constructs (`if-else`, `case`, `for`, `generate`) to design complex logic efficiently.  
+
 🔹 `if-else` and `case` are widely used for **decision making** in combinational circuits.  
+
 🔹 `for` loops and `generate` blocks help replicate structures like adders or multiplexers systematically.  
+
 🔹 **⚠️ Caution**: Incomplete assignments in `if-else` or `case` blocks may infer unintended **latches**, which can cause timing issues.  
+
 🔹 These constructs are synthesizable (with proper usage) and map to real hardware gates.  
 
 ---
 
 ## 🧩 If-Else with Multiplexer  
 
-✅ A **MUX** selects one of many inputs based on the select line.  
-✅ Can be written using **if-else statements** for clarity.  
-✅ Ensure that *all branches* of an **if-else** provide assignments, otherwise synthesis infers **latch behavior**.  
+- ✅ A **MUX** selects one of many inputs based on the select line.  
+
+- ✅ Can be written using **if-else statements** for clarity.  
+
+- ✅ Ensure that *all branches* of an **if-else** provide assignments, otherwise synthesis infers **latch behavior**.  
 
 ---
 
 ## 🎛 Case Statement with Demultiplexer  
 
-✅ A **DEMUX** routes the input to one of many outputs depending on the select line.  
-✅ Implemented efficiently using `case` statements.  
-✅ If not all cases are covered (missing `default:`), a **latch may be inferred**.  
+
+- ✅ A **DEMUX** routes the input to one of many outputs depending on the select line.  
+
+- ✅ Implemented efficiently using `case` statements.  
+
+- ✅ If not all cases are covered (missing `default:`), a **latch may be inferred**.  
 
 ---
 
-## ➕ Full Adder using Case & If  
+## ➕ Full Adder using Generate Blocks
 
-✅ Demonstrates designing combinational logic using procedural constructs.  
-✅ Highlights differences in readability between `if-else` vs. `case`.  
-✅ Proper completion of all possible input combinations avoids **latch inference**.  
+- ✅ Demonstrates creating repetitive combinational structures efficiently.
+
+- ✅ Highlights how generate simplifies multi-bit or replicated logic.
+
+- ✅ Proper use ensures all instances are synthesized correctly and avoids unintended latches.
+ 
 
 ---
 
 ## 🔁 For Loop & Generate Blocks  
 
-✅ `for` loops iterate over procedural assignments, useful in testbenches and small logic replications.  
-✅ `generate` blocks replicate hardware systematically (e.g., instantiating N full adders for a ripple-carry adder).  
-✅ They do not cause latches if assignments are complete.  
+- ✅ `for` loops iterate over procedural assignments, useful in testbenches and small logic replications.  
+- ✅ `generate` blocks replicate hardware systematically (e.g., instantiating N full adders for a ripple-carry adder).  
+- ✅ They do not cause latches if assignments are complete.  
 
 ---
 
 ## ⚡ Latch Inference in Combinational Circuits  
 
 🔹 A **latch is inferred** in RTL when the synthesizer needs to *remember a value* due to incomplete assignments.  
+
 🔹 Common causes:  
 - Missing `else` in `if-else`  
 - Missing `default` in `case`  
